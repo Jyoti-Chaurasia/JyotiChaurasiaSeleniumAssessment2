@@ -6,24 +6,38 @@ It supports **parallel execution** and generates **detailed HTML, JSON, Extent, 
 
 ## 📂 Project Structure
 ```
-├── src/main/java
-│   ├── configurationProperties (Property file reader)
-│   ├── com.automation.base (Base setup)
-│   ├── com.automation.utils (Utility functions)
-│   ├── com.automation.tests (Test cases)
-│
-├── src/test/java
-│   ├── com.automation.runners (Test Runner)
-│   ├── com.automation.stepdefinitions (Step Definitions)
-│
-├── src/test/resources
-│   ├── configuration/config.properties  # Configuration file
-│   ├── features/  # Cucumber feature files
-│
-├── target/  # Output folder (ignored in Git)
-│
-├── pom.xml  # Maven Dependencies
-├── README.md  # This guide
+JyotiChaurasiaSeleniumAssessment2/
+│── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com.automation.base/
+│   │   │   ├── com.automation.image/
+│   │   │   ├── com.automation.login/
+│   │   │   ├── com.automation.pages/
+│   │   │   ├── com.automation.screen/
+│   │   │   ├── com.automation.url/
+│   │   │   ├── com.automation.utils/
+│   │   │   ├── configurationProperties/
+│   │   │   │   ├── ConfigureProperties.java
+│   ├── test/
+│   │   ├── java/
+│   │   │   ├── com.automation.runners/
+│   │   │   │   ├── **TestRunner.java**
+│   │   │   ├── com.automation.stepdefinitions/
+│   │   │   ├── com.automation.utils/
+│   │   ├── resources/
+│   │   │   ├── configuration/
+│   │   │   │   ├── config.properties
+│   │   │   ├── features/
+│   │   │   │   ├── screenshots/
+│   │   │   ├── product_inventory.xlsx
+│── pom.xml
+│── test-output/
+│── target/
+│── allure-results/
+│── Maven Dependencies/
+│── JRE System Library (JavaSE-1.8)
+
 ```
 
 ---
